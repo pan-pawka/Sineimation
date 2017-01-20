@@ -9,6 +9,6 @@ public class BindRotationToSpeed : MonoBehaviour
 
 	private void Update ()
 	{
-		r.speed = s.speed * 10f;
+		r.speed = s.speed * (s.stride * 2f) * 10f;
 	} 
 }
